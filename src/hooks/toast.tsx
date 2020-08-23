@@ -31,8 +31,6 @@ const ToastProvider: React.FC = ({ children }) => {
         description,
       };
 
-      debugger;
-
       setMessages(state => [...state, toast]);
     },
     [],
